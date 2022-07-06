@@ -9,6 +9,7 @@ class Trojkaty {
      * @param {float} b - Długość drugiego boku.
      * @param {float} c - Długość trzeciego boku.
      */
+<<<<<<< HEAD
     public static void jakiTrojkat(float a, float b, float c){
          if (a == b && b == c && a == c) {
              System.out.println("Trójkąt równoboczny"); 
@@ -19,6 +20,8 @@ class Trojkaty {
               System.out.println("Długości boków trójkąta muszą być nieujemne!");
                     System.exit(2);
                 }
+=======
+>>>>>>> optymalizcja-1
          // TODO: tutaj trzeba bedzie dopisac inne przypadki
     }
     /** Wyświetla ekran pomocy */
