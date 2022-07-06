@@ -27,6 +27,13 @@ class Trojkaty {
          }
     }
 
+
+	public static boolean czyIstniejeTrojkat(float a, float b, float c){
+                  if (a + b <= c) return false;
+                  if (a + c <= b) return false;
+                  if (b + c <= a) return false;
+                  return true;
+               }
 <<<<<<< HEAD
 
          if (a < 0 || b < 0 || c < 0) {
@@ -59,6 +66,12 @@ class Trojkaty {
             pomoc();
             System.exit(1);
         }
+
+	if (!czyIstniejeTrojkat(a, b, c)) {
+                    System.out.println("Z podanych długości boków nie da się zbudować trójkąta");
+                    System.exit(3);
+                   }
+
         float a = Float.valueOf(args[0]);
         float b = Float.valueOf(args[1]);
         float c = Float.valueOf(args[2]);
