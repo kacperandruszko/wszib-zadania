@@ -13,6 +13,12 @@ class Trojkaty {
          if (a == b && b == c && a == c) {
              System.out.println("Trójkąt równoboczny"); 
          }
+
+
+         if (a < 0 || b < 0 || c < 0) {
+              System.out.println("Długości boków trójkąta muszą być nieujemne!");
+                    System.exit(2);
+                }
          // TODO: tutaj trzeba bedzie dopisac inne przypadki
     }
     /** Wyświetla ekran pomocy */
