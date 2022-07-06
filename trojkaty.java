@@ -11,10 +11,11 @@ class Trojkaty {
      */
 <<<<<<< HEAD
     public static void jakiTrojkat(float a, float b, float c){
-         if (a == b && b == c && a == c) {
+        if (a == b && b == c && a == c) {
              System.out.println("Trójkąt równoboczny"); 
          }
 
+<<<<<<< HEAD
 
          if (a < 0 || b < 0 || c < 0) {
               System.out.println("Długości boków trójkąta muszą być nieujemne!");
@@ -22,6 +23,16 @@ class Trojkaty {
                 }
 =======
 >>>>>>> optymalizcja-1
+=======
+	if (a == b && b == c && a == c) {
+                    System.out.println("Trójkąt równoboczny");
+        }
+
+        if (a == b || b == c || a == c) {
+                    System.out.println("Trójkąt równoramienny");
+
+	}
+>>>>>>> feature-rownoramienny
          // TODO: tutaj trzeba bedzie dopisac inne przypadki
     }
     /** Wyświetla ekran pomocy */
