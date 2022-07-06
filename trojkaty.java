@@ -1,7 +1,7 @@
 /**
 * To jest program do rozpoznawania trójkąta.
 */
-
+problem z mergem
 class Trojkaty {
     /**
      * Główna funkcja programu.
